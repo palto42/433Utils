@@ -38,10 +38,10 @@ int main(int argc, char *argv[]) {
     // If no command line argument is given, print the help text
     if (argc == 1) {
         printf("Usage: %s decimalcode [protocol] [pulselength] [bitnum]\n", argv[0]);
-        printf("decimalcode\t- As decoded by RFSniffer\n");
-        printf("protocol\t- According to rc-switch definitions\n");
-        printf("pulselength\t- pulselength in microseconds\n");
-        printf("bitnum\t- message lenth in bits (default 24)\n");
+        printf("decimalcode - As decoded by RFSniffer\n");
+        printf("protocol    - According to rc-switch definitions\n");
+        printf("pulselength - pulselength in microseconds\n");
+        printf("bitnum      - message lenth in bits (default 24)\n");
         return -1;
     }
 
